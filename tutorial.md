@@ -319,18 +319,18 @@ gcloud run deploy ${CLOUDRUN} \
 
 ### GETを試す
 GETの「Try it out」->「Execute」を順にクリックすることで事前に登録したtaroのデータを見ることができます。
-![](img/swagger_get.png)
+![get](img/swagger_get.png)
 
 ### POSTを試す
 POSTも試してみましょう。POSTするデータはRequest body内で設定します。
-![](img/swagger_post.png)
+![post](img/swagger_post.png)
 
 もう一度GETを実行してhanakoが追加されていることを確認しましょう。
 
 ### 個別のユーザーに対して操作を行う
 このAPIでは登録時に採番されるIDを指定することで個別のユーザーに対する操作を行うことができます。
 IDの自動採番はCloud SQLのテーブル作成時にauto_incrementを指定することで実現しています。
-![](img/swagger_by_id.png)
+![by_id](img/swagger_by_id.png)
 
 IDが1であるtaroのデータをPUTで修正して、修正内容をGETで確認して、DELETEしてみましょう。
 <!-- Step 14 -->
