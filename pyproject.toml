@@ -8,7 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.9"
 SQLAlchemy = "^1.4.36"
 uvicorn = "^0.17.6"
-fastapi = "^0.78.0"
+fastapi = "^0.109.1"
 PyMySQL = "^1.0.2"
 SQLAlchemy-Utils = "^0.38.2"
 
